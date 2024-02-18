@@ -29,9 +29,12 @@ body {
 	width: 100vw;
 	padding-top: 20px;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+
+    h2 {
+        color: $color_1;
+    }
 }
 
 #discord-icon {
@@ -44,29 +47,35 @@ body {
 
 }
 
-#discord-text {
-
-	&:hover {
-		&::before {
-			width: 100%;
-		}
-	}
-
-}
-
 .container-control {
-	height: 100vw;
+	height: 100vh;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+    #download-container {
+        width: 300px;
+    }
+
+    #phrases-container {
+        padding: 20px;
+        max-width: 500px;
+        display: inline-block;
+        text-align: start;
+    
+        p {
+            &:not(:first-child) {
+                margin-top: 20px;
+            }
+        }
+    }
 }
 
 .container {
 	color: $color_1;
     margin: 0 50px;
 	height: 300px;
-	width: 300px;
 	background-color: $background-color_1;
 	border: 2px solid #fff;
 	display: flex;
@@ -77,19 +86,6 @@ body {
 	flex-direction: column;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 	transition: 0.5s;
-}
-
-#phrases-container {
-	padding: 20px;
-	max-width: 500px;
-	display: inline-block;
-	text-align: start;
-
-	p {
-		&:not(:first-child) {
-			margin-top: 20px;
-		}
-	}
 }
 
 span {
