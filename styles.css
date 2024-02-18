@@ -1,0 +1,38 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("pinto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    outline: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
