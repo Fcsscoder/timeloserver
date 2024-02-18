@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    .container-control {
+        flex-direction: column;
+        .container {
+            margin-top: 50px;
+        }
+    }
+}
