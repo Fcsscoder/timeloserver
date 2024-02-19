@@ -1,0 +1,61 @@
+@keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+    #main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+
+    h3 {
+        color:#fff;
+        font-size: 0.8rem;
+        margin-top: 40px;
+        font-family: "Sixtyfour", sans-serif;;
+    }
+
+    #aside-image {
+        position: relative;
+        margin-top: 40px;
+        width: 40rem;
+        animation: floatAnimation 3s infinite;
+    }
+
+    #shade {
+        position: absolute;
+    }
+
+    #description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: #fff;
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        #discord-icon {
+            color: #fff;
+            font-size: 40px;
+            transition: 0.7s;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    #join-btn {
+        margin: 0;
+    }
+}
