@@ -2,11 +2,10 @@ $color_1: #fff;
 $font-family_1: "DM Serif Text", serif;
 $background-color_1: transparent;
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Kode+Mono:wght@400..700&family=Micro+5&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Kode+Mono:wght@400..700&family=Micro+5&family=Sixtyfour&family=Workbench&display=swap');
 
 @import "./query.scss";
 @import "./addons.scss";
-@import "./nav.scss";
 @import "./main.scss";
 @import "./home.scss";
 
