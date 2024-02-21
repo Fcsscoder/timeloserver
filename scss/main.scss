@@ -5,9 +5,10 @@
 	flex-direction: row;
 	align-items: center;
     gap: 50px;
+	padding: 40px;
 
     #download-container {
-        width: 500px;
+        max-width: 500px;
         padding: 50px;
 		text-align: center;
 
@@ -20,9 +21,6 @@
 			position: relative;
 			transition: 0.5s;
 			margin-top: 15px;
-			&:hover {
-				transform: scale(1.05);
-			}
 		}
 		
 

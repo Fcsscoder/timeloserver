@@ -28,8 +28,9 @@
         animation: floatAnimation 3s infinite;
     }
 
-    #shade {
+    #shape {
         position: absolute;
+        min-width: 500px;
     }
 
     #description-container {
@@ -49,9 +50,6 @@
             font-size: 40px;
             transition: 0.7s;
             cursor: pointer;
-            &:hover {
-                transform: scale(1.1);
-            }
         }
     }
 
