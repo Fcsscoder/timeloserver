@@ -39,6 +39,10 @@
         max-width: 500px;
         display: inline-block;
         text-align: start;
+		overflow-y: scroll;
+		scrollbar-width: thin;
+
+		
 
 		h2 {
 			text-align: center;
