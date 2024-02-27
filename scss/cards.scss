@@ -1,0 +1,26 @@
+#card-container {
+    background: url(/img/brawlhalla-bg.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    border: 0;
+    margin: 0 20px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    outline: 2px solid #fff;
+    height: 400px;
+}
+
+.card-body {
+    background-color: #5b873d;
+    color: #fff;
+    outline: 1px solid #fff ;
+    border-radius: 5px;
+}
