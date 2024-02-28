@@ -13,17 +13,29 @@
        #shape {
         display: none;
         }
+    }
+
+
+@media screen and (max-width: 980px) {
+    #main-container {
+        .container-control {
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        #back-btn {
+            display: none;
+        }
+    }
 }
 
 @media screen and (max-width: 1100px) {
-        #main-container {
-            .container-control {
-                flex-direction: column;
-                gap: 0px;
-            }
+    #card-container {
+        height: 100%;
 
-            #back-btn {
-                display: none;
-            }
+        .card {
+            margin-top: 40px;
+        }
     }
 }
+

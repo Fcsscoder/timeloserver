@@ -22,6 +22,7 @@
 	background-position: center;
 	position: relative;
 	overflow: hidden;
+	flex-wrap: wrap;
 
 	.container-control {
 		display: flex;
@@ -29,7 +30,6 @@
 		flex-direction: row;
 		align-items: center;
 		gap: 50px;
-		padding: 40px;
 
 		#download-container {
 			flex: 1;
@@ -149,16 +149,4 @@
 	}
 }
   
-#terraria-world {
-	position: absolute;
-	top: 550px;
-	right: -80px;
-	width: 1000px;
-}
-
-#terraria-world2 {
-	position: absolute;
-	top: 562px;
-	left: -180px;
-}
  
