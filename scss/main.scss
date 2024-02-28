@@ -147,19 +147,18 @@
 		left: 200px;
 		width: 10rem;
 	}
-
-	#terraria-world {
-		position: absolute;
-		bottom: -150px;
-		right: -300px;
-		width: 1000px;
-	}
-
-	#terraria-world2 {
-		position: absolute;
-		bottom: -150px;
-		left: -50px;
-	}
 }
   
+#terraria-world {
+	position: absolute;
+	top: 550px;
+	right: -80px;
+	width: 1000px;
+}
+
+#terraria-world2 {
+	position: absolute;
+	top: 562px;
+	left: -180px;
+}
  
