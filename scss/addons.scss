@@ -277,3 +277,64 @@
       outline-offset: 0;
     }
   }
+
+  #aboutus-btn {
+ position: relative;
+ height: 50px;
+ padding: 0 30px;
+ border: 2px solid #ffffff;
+ background: #000000;
+ user-select: none;
+ white-space: nowrap;
+ transition: all .05s linear;
+ font-family: inherit;
+ color: #fff;
+ margin-top: 30px;
+ letter-spacing: 2px;
+}
+
+#aboutus-btn:before, #aboutus-btn:after {
+ content: "";
+ position: absolute;
+ background: #000000;
+ transition: all .2s linear;
+}
+
+#aboutus-btn:before {
+ width: calc(100% + 6px);
+ height: calc(100% - 16px);
+ top: 8px;
+ left: -3px;
+}
+
+#aboutus-btn:after {
+ width: calc(100% - 16px);
+ height: calc(100% + 6px);
+ top: -3px;
+ left: 8px;
+}
+
+#aboutus-btn:hover {
+ cursor: crosshair;
+}
+
+#aboutus-btn:active {
+ transform: scale(0.95);
+}
+
+#aboutus-btn:hover:before {
+ height: calc(100% - 32px);
+ top: 16px;
+}
+
+#aboutus-btn:hover:after {
+ width: calc(100% - 32px);
+ left: 16px;
+}
+
+#aboutus-btn span {
+ font-size: 15px;
+ z-index: 3;
+ position: relative;
+ font-weight: 600;
+}
